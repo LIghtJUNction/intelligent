@@ -1,6 +1,7 @@
 # code by @YumeYuka
 
 baseDir="$(dirname "$(readlink -f "$0")")"
+# MODDIR=${0%/*}
 [ -f "$baseDir/skt-utils.sh" ] && . "$baseDir/skt-utils.sh" || exit
 
 # code before boot completed
